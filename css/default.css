@@ -12,6 +12,10 @@ header {
   height: 250px;
 }
 
+p {
+  text-align: justify;
+}
+
 nav {
   text-align: right;
 }
