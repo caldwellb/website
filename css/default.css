@@ -9,21 +9,14 @@ body {
 
 header {
   border-bottom: 0.2rem solid #000;
-  height: 250px;
 }
 
 p {
   text-align: justify;
 }
 
-nav {
-  text-align: right;
-}
-
 .socials {
   text-align: left;
-  position:absolute;
-  top:240px;
 }
 
 nav a {
@@ -51,12 +44,10 @@ h1 {
 }
 
 .titleheader {
-  width: 60%;
-  position: absolute;
-  top:125px;
   text-align: center;
   font-size: 2.4rem;
   font-style: bold;
+  margin: 50px;
 }
 
 h2 {
@@ -75,7 +66,7 @@ article .header {
   text-decoration: none;
 }
 
-@media (max-width: 319px) {
+@media (max-width: 1079px) {
   body {
     width: 90%;
     margin: 0;
@@ -88,33 +79,7 @@ article .header {
     margin: 0 auto 3rem;
     text-align: center;
   }
-  footer {
-    text-align: center;
-  }
-  .logo {
-    text-align: center;
-    margin: 1rem auto 3rem;
-  }
-  .logo a {
-    font-size: 2.4rem;
-  }
-  nav a {
-    display: block;
-    line-height: 1.6;
-  }
-}
-
-@media (min-width: 320px) {
-  body {
-    width: 90%;
-    margin: 0;
-    padding: 0 5%;
-  }
-  header {
-    margin: 4.2rem 0;
-  }
-  nav {
-    margin: 0 auto 3rem;
+  .socials {
     text-align: center;
   }
   footer {
@@ -130,10 +95,17 @@ article .header {
   nav a {
     display: inline;
     margin: 0 0.6rem;
+    font-size:80%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .svgcard {
+    width: 100%;
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1080px) {
   body {
     width: 60%;
     margin: 0 auto;
@@ -144,6 +116,7 @@ article .header {
     padding: 1.2rem 0;
   }
   nav {
+    position: center;
     margin: 0;
     text-align: right;
   }
@@ -161,5 +134,12 @@ article .header {
   .logo a {
     float: left;
     font-size: 1.8rem;
+  }
+  .svgdiv {
+    display: flex;
+    justify-content: left;
+  }
+  .svgcard {
+    width: 33.333%;
   }
 }
