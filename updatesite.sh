@@ -10,4 +10,4 @@ do
   done
   chmod 755 $dir
 done
-scp -r _site/* caldwellb@linux.cs.uchicago.edu:~/html
+scp -r -p _site/* caldwellb@linux.cs.uchicago.edu:~/html

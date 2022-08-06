@@ -5,11 +5,12 @@ title: Research
 # Responsible Research
 
 <div class="svgdiv">
+<object class="svgcard" data="images/cv.svg" alt="CV - Pdf"></object>
 <object class="svgcard" data="images/vyzxpaper.svg" alt="inQWIRE/VyZX - GitHub"></object>
 <object class="svgcard" data="images/vyzx.svg" alt="inQWIRE/VyZX - GitHub"></object>
-<object class="svgcard" data="images/thesis.svg" alt="New College of Florida Undergraduate Thesis - Pdf"></object>
 </div>
 <div class="svgdiv">
+<object class="svgcard" data="images/thesis.svg" alt="New College of Florida Undergraduate Thesis - Pdf"></object>
 <object class="svgcard" data="images/idrisgt.svg" alt="caldwellb/idrisgrouptheory - GitHub"></object>
 </div>
 # Irresponsible Projects
